@@ -1,0 +1,96 @@
+{
+  "nodes": {
+    "fbthrift": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647807734,
+        "narHash": "sha256-3LyAKHYhzkEvf6+CkciTnD5x3B85ASeOXt7wze/7Rbo=",
+        "owner": "facebook",
+        "repo": "fbthrift",
+        "rev": "5e4ce0994de546bc7e17a0ba588518cabd01f303",
+        "type": "github"
+      },
+      "original": {
+        "owner": "facebook",
+        "repo": "fbthrift",
+        "rev": "5e4ce0994de546bc7e17a0ba588518cabd01f303",
+        "type": "github"
+      }
+    },
+    "folly": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647567028,
+        "narHash": "sha256-POwiLVyxBiVSMIbAIwrhrfZ5ZNCfBFyKuyaNSSXM4Fc=",
+        "owner": "facebook",
+        "repo": "folly",
+        "rev": "530a7266f9f15eaad196ce1b291fbbfc8e578810",
+        "type": "github"
+      },
+      "original": {
+        "owner": "facebook",
+        "repo": "folly",
+        "rev": "530a7266f9f15eaad196ce1b291fbbfc8e578810",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1654694478,
+        "narHash": "sha256-nFAMETXEhIrqnBe28u6vqy4ixSRr0BRrlZLlS0e7eoM=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "18de53ca965bd0678aaf09e5ce0daae05c58355a",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "fbthrift": "fbthrift",
+        "folly": "folly",
+        "nixpkgs": "nixpkgs",
+        "util": "util",
+        "wangle": "wangle"
+      }
+    },
+    "util": {
+      "locked": {
+        "lastModified": 1653893745,
+        "narHash": "sha256-0jntwV3Z8//YwuOjzhV2sgJJPt+HY6KhU7VZUL0fKZQ=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "1ed9fb1935d260de5fe1c2f7ee0ebaae17ed2fa1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "ref": "master",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "wangle": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1647575035,
+        "narHash": "sha256-6/32zuylYyMFudz4x6GD11oR01xjRXfWz7w6VsBD9Gw=",
+        "owner": "facebook",
+        "repo": "wangle",
+        "rev": "6edb5d93b6770db56b23c670b782ee452a844b54",
+        "type": "github"
+      },
+      "original": {
+        "owner": "facebook",
+        "repo": "wangle",
+        "rev": "6edb5d93b6770db56b23c670b782ee452a844b54",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
